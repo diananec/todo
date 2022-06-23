@@ -1,0 +1,27 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  position: fixed;
+  background: #9c94ab;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5em;
+  padding-bottom: 0.3em;
+  margin: auto;
+  z-index: 9999;
+}
+.Modal__Button {
+  width: 70px;
+}
+.Modal__Close {
+  width: 70px;
+}
+
+.Modal__Input {
+  width: 70%;
+  height: 30%;
+  margin-top: 20px;
+  border-radius: 5em;
+}

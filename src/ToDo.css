@@ -1,0 +1,34 @@
+.Wrap {
+  width: 80%;
+}
+.MainToDo {
+  border: #ebccc6 0.3em solid;
+  color: #d1c4e1;
+  font-weight: bold;
+  border-radius: 5em;
+  flex-direction: row;
+  display: flex;
+  padding: 3.4%;
+  margin: 3%;
+  align-items: center;
+}
+.MainToDo__text {
+  width: 70%;
+  word-wrap: break-word;
+}
+.MainToDo__edit {
+  width: 15%;
+}
+.MainToDo__delete:hover {
+  color: #acadd1;
+}
+.MainToDo__Checkbox {
+  width: auto;
+}
+
+.MainToDo__modal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
